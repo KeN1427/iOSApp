@@ -9,11 +9,34 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var counterLabel: UILabel!
+    
+    var counter: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        setCounter(counter: 0)
     }
+    
+    
+    @IBAction func plus(_ sender: Any) {
+        setCounter(counter: counter + 1)
+    }
+    
 
-
+    @IBAction func minus(_ sender: Any) {
+        setCounter(counter: counter - 1)
+    }
+    
+    @IBAction func reset(_ sender: Any) {
+        setCounter(counter: 0)
+    }
+    
+    private func setCounter(counter: Int) {
+        self.counter = counter
+        counterLabel.text = String(counter)
+    }
 }
 
