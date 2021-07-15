@@ -24,3 +24,13 @@
 - [<Swift\>iOS 10 User Notifications Framework実装まとめ](https://qiita.com/mshrwtnb/items/3135e931eedc97479bb5)
 
 - [NotificationBanner](https://github.com/Daltron/NotificationBanner)
+
+## AWS
+- [Cognitoで認証されたユーザーだけがAPI Gatewayを呼び出せるオーソライザーを使ってみた](https://dev.classmethod.jp/articles/api-gateway-cognito-authorizer/#toc-6)
+- [Amplify で既存Cognito と 既存APIGateway を使ってみる](https://dev.classmethod.jp/articles/amplify-with-existing-cognito-apigateway/)
+
+
+
+## Lambda Layer
+- [AWS Lambda Layersでライブラリを共通化](https://qiita.com/t_okkan/items/394a15577bd1aad46ec3)
+- [AWS LambdaでPython外部ライブラリのLayerを作る前に](https://qiita.com/polarbear08/items/202752d5ffcb65595bd9)
